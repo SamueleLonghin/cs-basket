@@ -1,1 +1,1 @@
-#Repo del progetto CS-Basket per i campionati studenteschi di baschet dell'anno 2019, fatto da Longhin Samuele in collaborazione con Bottazzo Angelo ed un po' di altra gente
+# Repo del progetto CS-Basket per i campionati studenteschi di baschet dell'anno 2019, fatto da Longhin Samuele in collaborazione con Bottazzo Angelo ed un po' di altra gente
