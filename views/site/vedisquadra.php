@@ -18,7 +18,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
 
 <?= Html::label($squadra->Descrizione) ?>
-<? php ?>
 <div style="display: inline-block">
     <div style="flex-direction: row">
     </div>
