@@ -7,6 +7,10 @@
 -- Versione del server: 10.1.38-MariaDB-0+deb9u1
 -- Versione PHP: 7.0.33-0+deb9u3
 
+DROP DATABASE IF EXISTS basket;
+CREATE DATABASE IF NOT EXISTS basket;
+USE basket;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -17,7 +21,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `baskett`
+-- Database: `basket`
 --
 
 -- --------------------------------------------------------
