@@ -9,13 +9,13 @@ Questo è un progetto "commissionato" dal ministero per l'istruzione in occasion
 
 ## Come è stato fatto
 
-È stato realizzato in php appoggiandosi (male) al framework yii2. 
+È stato realizzato in php appoggiandosi (male) al framework yii2.
 
 Per la parte di DataBase è stato usato mysql (anche questo molto male).
 
 Probabilmente se qualcuno proverà mai a leggere il codice sarà l'ultima cosa che si troverà a leggere da quanto è scritto male ma a mia discolpa questo è stato il mio vero primo progetto ed è stato realizzato in pochissimo tempo ed in fretta... Vi auguro buona visione
 
-# Utilizzo 
+# Utilizzo
 
 ### Per avviare il tutto:
 
@@ -23,13 +23,15 @@ Probabilmente se qualcuno proverà mai a leggere il codice sarà l'ultima cosa c
 - Installare docker da [Docker](https://docs.docker.com/get-docker/)
 - aprire un terminale nella cartella radice della repo
 - eseguire `docker-compose up`
+- Se vedi che non va prova ad eseguire sul terminale:  `docker exec -it yii_web_basket composer update`
+  
 
 ### Per visualizzare il servizio
 
 - [avviare il docker](#per-avviare-il-tutto)
 - andare su [http://localhost:8080](http://localhost:8080)
 
-### Per fermare il tutto: {stop}
+### Per fermare il tutto:
 
 - aprire un terminale nella cartella radice della repo
 - eseguire `docker-compose down`
