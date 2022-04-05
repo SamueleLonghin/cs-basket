@@ -13,7 +13,6 @@ nbproject
 Thumbs.db
 
 # composer vendor dir
-/vendor
 
 # composer itself is not needed
 composer.phar
@@ -30,4 +29,5 @@ tests/_output/*
 tests/_support/_generated
 
 #vagrant folder
-/.vagrant
+
+!/.vagrant/bower-assets/*
