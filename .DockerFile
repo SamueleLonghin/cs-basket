@@ -8,4 +8,3 @@ ADD tests/phpunit_getopt.patch /app/tests/phpunit_getopt.patch
 # Install packgaes
 RUN /usr/local/bin/composer install --prefer-dist
 ADD ./ /app
-ENV PATH /app/vendor/bin:${PATH}
